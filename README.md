@@ -1,6 +1,6 @@
 # Self-supervised Contrastive Representation Learning for Semi-supervised Time-Series Classification (CA-TCC) [[Paper](http://arxiv.org/abs/2208.06616)] [[Cite](#citation)]
 
-## This work is an extention to [TS-TCC](https://github.com/emadeldeen24/TS-TCC), so if you need any details about the training procedures or the datasets, please check it first.
+## This work is an extention to [TS-TCC](https://github.com/emadeldeen24/TS-TCC), so if you need any details about the unsupervised pretraining and/or the datasets and its preprocessing, please check it first.
 
 
 ### Training modes:
