@@ -5,7 +5,7 @@
 
 ### Training modes:
 <p align="center">
-<img src="misc/CA-TCC_phases.pdf" width="400" class="center">
+<img src="misc/CA-TCC_phases.png" width="800" class="center">
 </p>
 
 CA-TCC has two new training modes over TS-TCC
