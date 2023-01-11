@@ -4,6 +4,10 @@
 
 
 ### Training modes:
+<p align="center">
+<img src="misc/CA-TCC_phases.pdf" width="400" class="center">
+</p>
+
 CA-TCC has two new training modes over TS-TCC
 - "gen_pseudo_labels": which generates pseudo labels from fine-tuned TS-TCC model. This mode assumes that you ran "ft_1per" mode first.
 - "SupCon": which performs supervised contrasting on pseudo-labeled data.
