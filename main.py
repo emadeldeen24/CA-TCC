@@ -150,7 +150,7 @@ if training_mode == "random_init":
     set_requires_grad(model, model_dict, requires_grad=False)  # Freeze everything except last layer.
 
     
-if load_from_pretrained and training_mode == "SupCon":
+if training_mode == "SupCon":
     load_from = os.path.join(       
         os.path.join(logs_save_dir, experiment_description, run_description, f"ft_{data_perc}p_seed_{SEED}", "saved_models"))      
     chkpoint = torch.load(os.path.join(load_from, "ckp_last.pt"), map_location=device)      
