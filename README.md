@@ -19,6 +19,10 @@ For example: "ft_1per" will fine-tune the TS-TCC pretrained model with 1% of lab
 "ft_SupCon_1per" will fine-tune the CA-TCC pretrained model with 1% of labeled data.
 Same applies to "tl" or "train_linear".
 
+To generate the 1%, you just need to split the data into 1%-99% and take the 1%.
+Also, you can find a script that does a [similar job here](https://github.com/emadeldeen24/eval_ssl_ssc/blob/main/split_k-fold_and_few_labels.py). However, note that it creates it for 5-fold, so you can set it to just 1-fold.
+
+
 ### Training procedure
 To run everything smoothly, we included `ca_tcc_pipeline.sh` file. You can simply use it.
 
