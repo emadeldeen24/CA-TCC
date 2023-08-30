@@ -32,7 +32,7 @@ To run everything smoothly, we included `ca_tcc_pipeline.sh` file. You can simpl
 ## Citation
 If you found this work useful for you, please consider citing it.
 ```
-@inproceedings{ijcai2021-324,
+@inproceedings{tstcc,
   title     = {Time-Series Representation Learning via Temporal and Contextual Contrasting},
   author    = {Eldele, Emadeldeen and Ragab, Mohamed and Chen, Zhenghua and Wu, Min and Kwoh, Chee Keong and Li, Xiaoli and Guan, Cuntai},
   booktitle = {Proceedings of the Thirtieth International Joint Conference on Artificial Intelligence, {IJCAI-21}},
@@ -41,11 +41,15 @@ If you found this work useful for you, please consider citing it.
 }
 ```
 ```
-@article{emadeldeen2022catcc,
-  title   = {Self-supervised Contrastive Representation Learning for Semi-supervised Time-Series Classification},
-  author  = {Eldele, Emadeldeen and Ragab, Mohamed and Chen, Zhenghua and Wu, Min and Kwoh, Chee Keong and Li, Xiaoli and Guan, Cuntai},
-  journal = {arXiv preprint arXiv:2208.06616},
-  year    = {2022}
+@ARTICLE{catcc,
+  author={Eldele, Emadeldeen and Ragab, Mohamed and Chen, Zhenghua and Wu, Min and Kwoh, Chee-Keong and Li, Xiaoli and Guan, Cuntai},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Self-Supervised Contrastive Representation Learning for Semi-Supervised Time-Series Classification}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-15},
+  doi={10.1109/TPAMI.2023.3308189}
 }
 ```
 
