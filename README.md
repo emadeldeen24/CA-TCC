@@ -4,6 +4,7 @@
 
 ## This work is an extention to [TS-TCC](https://github.com/emadeldeen24/TS-TCC), so if you need any details about the unsupervised pretraining and/or the datasets and its preprocessing, please check it first.
 
+### The codes of the semi-supervised learning baselines I used in the paper are [HERE](https://github.com/emadeldeen24/semi-supervised_baselines).
 
 ### Training modes:
 <p align="center">
