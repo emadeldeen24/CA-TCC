@@ -4,8 +4,6 @@
 
 ## This work is an extention to [TS-TCC](https://github.com/emadeldeen24/TS-TCC), so if you need any details about the unsupervised pretraining and/or the datasets and its preprocessing, please check it first.
 
-### The codes of the semi-supervised learning baselines I used in the paper are [HERE](https://github.com/emadeldeen24/semi-supervised_baselines).
-
 ### Training modes:
 <p align="center">
 <img src="misc/CA-TCC_phases.png" width="800" class="center">
@@ -20,11 +18,15 @@ Note that "SupCon" is case-sensitive.
 To fine-tune or linearly evaluate "SupCon" pretrained model, include it in the training mode.
 For example: "ft_1per" will fine-tune the TS-TCC pretrained model with 1% of labeled data.
 "ft_SupCon_1per" will fine-tune the CA-TCC pretrained model with 1% of labeled data.
-Same applies to "tl" or "train_linear".
+The same applies to "tl" or "train_linear".
 
 To generate the 1%, you just need to split the data into 1%-99% and take the 1%.
 Also, you can find a script that does a [similar job here](https://github.com/emadeldeen24/eval_ssl_ssc/blob/main/split_k-fold_and_few_labels.py). However, note that it creates it for 5-fold, so you can set it to just 1-fold.
 
+### Baselines:
+The codes of the semi-supervised learning baselines I used in the paper are [HERE](https://github.com/emadeldeen24/semi-supervised_baselines).
+
+The codes of the self-supervised learning baselines I used in the paper can be found in [my other work](https://github.com/emadeldeen24/eval_ssl_ssc).
 
 ### Training procedure
 To run everything smoothly, we included `ca_tcc_pipeline.sh` file. You can simply use it.
@@ -55,8 +57,4 @@ If you found this work useful for you, please consider citing it.
 ```
 
 ## Contact
-For any issues/questions regarding the paper or reproducing the results, please contact me.   
-Emadeldeen Eldele   
-School of Computer Science and Engineering (SCSE),   
-Nanyang Technological University (NTU), Singapore.   
-Email: emad0002{at}e.ntu.edu.sg   
+Please contact me for any issues/questions regarding the paper or reproducing the results at: emad0002{at}e.ntu.edu.sg   
