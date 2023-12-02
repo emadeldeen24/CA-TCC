@@ -24,7 +24,7 @@ To generate the 1%, you just need to split the data into 1%-99% and take the 1%.
 Also, you can find a script that does a [similar job here](https://github.com/emadeldeen24/eval_ssl_ssc/blob/main/split_k-fold_and_few_labels.py). However, note that it creates it for 5-fold, so you can set it to just 1-fold.
 
 ### Baselines:
-The codes of the semi-supervised learning baselines I used in the paper are [HERE](https://github.com/emadeldeen24/semi-supervised_baselines).
+The codes of the self- and semi-supervised learning baselines I used in the paper are [HERE](https://github.com/emadeldeen24/semi-supervised_baselines).
 
 The codes of the self-supervised learning baselines I used in the paper can be found in [my other work](https://github.com/emadeldeen24/eval_ssl_ssc).
 
