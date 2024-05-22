@@ -49,9 +49,9 @@ If you found this work useful for you, please consider citing it.
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={Self-Supervised Contrastive Representation Learning for Semi-Supervised Time-Series Classification}, 
   year={2023},
-  volume={},
-  number={},
-  pages={1-15},
+  volume={45},
+  number={12},
+  pages={15604-15618},
   doi={10.1109/TPAMI.2023.3308189}
 }
 ```
